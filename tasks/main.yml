@@ -9,6 +9,7 @@
   template: src=update-exim4.conf.conf.j2 dest=/etc/exim4/update-exim4.conf.conf
   notify:
     - run update-exim4.conf
+    - restart exim4
 
 - name: Update mailname file
   template: src=mailname.j2 dest=/etc/mailname
