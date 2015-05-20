@@ -1,2 +1,3 @@
 ---
 exim4_sender_hostname: 'ubuntu-server'
+exim4_sender_root_address: 'root@ubuntu-server'
