@@ -1,6 +1,8 @@
 ---
 - name: run update-exim4.conf
   command: update-exim4.conf
+  sudo: true
 
 - name: restart exim4
   service: name=exim4 state=restarted
+  sudo: true
