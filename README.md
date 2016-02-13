@@ -15,7 +15,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: webbylab.exim4-sender, exim4_sender_hostname: 'myserver' }
+         - { role: WebbyLab.exim4-sender, exim4_sender_hostname: 'myserver' }
 
 License
 -------
