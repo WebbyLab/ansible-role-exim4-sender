@@ -6,7 +6,7 @@
      - mailutils
 
 - name: Create update-exim4.conf configuration file
-  template: src=update-exim4.conf.conf.j2 dest=/etc/exim4/update-exim4.conf.conf
+  template: src=update-exim4.conf.conf.j2 dest=/etc/exim4/update-exim4.conf
   notify:
     - run update-exim4.conf
     - restart exim4
